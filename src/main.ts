@@ -4,7 +4,7 @@ import "./style.css";
 import type { LoadableTemplate } from "./types";
 
 const asyncTemplates: Record<string, Promise<LoadableTemplate>> = {
-  "Tangible Interface v1.0.0": import("./templates/tangible-interface-brainstorm"),
+  "Tangible Interface Brainstorm v1": import("./templates/tangible-interface-brainstorm"),
 };
 
 class GeminiImageManipulator {
