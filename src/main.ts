@@ -11,7 +11,7 @@ class GeminiImageManipulator {
   // --- 1. CONSTANTS ---
   static MODEL = "gemini-2.5-flash-image-preview";
   static TEXT_MODEL = "gemini-2.5-flash";
-  static DB_NAME = "gemini-image-sandbox";
+  static DB_NAME = "semcad-prototype";
   static STORE_NAME = "keyval";
   static PLACEHOLDER_IMAGE = "https://placehold.co/800";
 
