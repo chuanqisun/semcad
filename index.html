@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini Workbench</title>
+  </head>
+  <body>
+    <header>
+      <h1>Setup</h1>
+    </header>
+
+    <div class="input-section">
+      <label for="api-key">Gemini API Key</label>
+      <input type="password" id="api-key" placeholder="Enter your Gemini API Key here" />
+    </div>
+
+    <div class="input-section">
+      <h2>Input</h2>
+
+      <div class="input-section">
+        <label for="template-select">Choose Template</label>
+        <select id="template-select">
+          <option value="">Select a template...</option>
+        </select>
+      </div>
+
+      <div class="system-message">
+        <label for="system-message">System message</label>
+        <textarea id="system-message" rows="3" placeholder="Optional system instructions prompt..."></textarea>
+      </div>
+
+      <div id="messages-container">
+        <!-- Message items will be inserted here -->
+      </div>
+
+      <div class="action-buttons">
+        <button id="add-item-button">Add Item</button>
+        <button id="delete-all-button">Delete All</button>
+      </div>
+    </div>
+
+    <div class="output-section">
+      <h2>Output</h2>
+      <div class="action-buttons">
+        <button id="generate-button">Generate image</button>
+        <button id="generate-text-button">Generate text</button>
+        <button id="delete-all-outputs-button">Delete all</button>
+      </div>
+      <div id="output-container">
+        <!-- Output items will be inserted here -->
+      </div>
+    </div>
+
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
