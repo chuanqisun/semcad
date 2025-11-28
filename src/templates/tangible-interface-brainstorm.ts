@@ -29,7 +29,7 @@ In the end, suggest one idea that intersects all three concepts and inspired by 
     {
       role: "user",
       text: `Here is an object: [PLACEHOLDER].
-        Help me establish connections between this object and the concepts of Tangible Interface, TeleAbsence, and Generative AI. Suggest a creative idea based on the connection under each concept.`,
+Help me establish connections between this object and the concepts of Tangible Interface, TeleAbsence, and Generative AI. Suggest a creative idea based on the connection under each concept.`.trim(),
       image: null,
     },
   ],
