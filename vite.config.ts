@@ -1,3 +1,5 @@
-export default {
-  basename: "/semcad/",
-};
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: "/semcad/",
+});
